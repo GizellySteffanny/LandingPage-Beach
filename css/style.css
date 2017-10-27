@@ -39,7 +39,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     color: #926239;
-    border: 1px solid #926239;
+    border: 2px solid #926239;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -82,4 +82,23 @@ body {
     background: #f9f9f9;
     color: #926239;
     border-top: 0.2px solid rgba(146, 98, 57, 0.75);
+}
+
+/* Mobile */
+@media(max-width: 640px) {
+    #section-c{
+        display: block;
+    }
+}
+
+@media (max-width: 340px) {
+    #showcase h1 {
+        font-size: 30px;
+    }
+    #showcase p{
+        font-size: 13px;
+    }
+    #showcase .button {
+        font-size: 15px;
+    }
 }
