@@ -49,3 +49,37 @@ body {
     background: #926239;
     color: #ffffff;
 }
+
+/* Styling Sections */
+
+#section-a{
+    padding: 20px;
+    background: #926239;
+    color: #ffffff;
+    text-align: center;
+}
+
+#section-b{
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+    background: #926239;
+    color: #ffffff;
+}
+
+#section-c .box-2{
+    background: #f9f9f9;
+    color: #926239;
+    border-top: 0.2px solid rgba(146, 98, 57, 0.75);
+}
